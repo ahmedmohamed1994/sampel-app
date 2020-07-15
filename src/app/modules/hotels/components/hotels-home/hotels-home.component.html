@@ -1,0 +1,8 @@
+<p *ngIf="loading">Loading data .. plz wait</p>
+<ul *ngIf="!loading">
+<li *ngFor="let user of users">
+    {{user.first_name}} {{user.last_name}}
+    <button (click)="shareUser(user)">share User</button>
+</li>
+
+</ul>

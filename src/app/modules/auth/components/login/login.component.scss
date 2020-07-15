@@ -1,0 +1,34 @@
+form {
+    margin-top: 100px;
+    text-align: center;
+    padding: 5px;
+}
+/* Full-width input fields */
+input[type=email], input[type=password],select.form-group {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: skyblue;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  

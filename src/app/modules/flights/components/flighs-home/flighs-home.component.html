@@ -1,0 +1,7 @@
+<p>flighs-home works!</p>
+<button (click)="addStudent()">Add New Student</button>
+<ul>
+    <li *ngFor="let student of students; let i = index; trackBy:track">
+      {{i+1}} - {{student.name}} - {{student.age}}
+    </li>
+</ul>
